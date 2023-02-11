@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form metod="GET">
+        <fieldset>
+            <legend>Дані про учня</legend>
+                <label for="field1">Ім'я учня</label>
+                    <input type="text" id="field1" placeholder="Введіть ім'я"required>
+                <label for="field2">Електронна адреса учня</label>
+                    <input type="email" id="field2" placeholder="Введіть електронну скриньку"required>
+                <label for="field3">Група в якій навчається учень</label>
+                    <input type="number" id="field3" placeholder="Вкажіть номер групи"required>
+                <label for="field4">Рік народження учня</label>
+                <select>
+                    <option vame="1996">1996</option>
+                    <option vame="1997">1997</option>
+                    <option vame="1998">1998</option>
+                    <option vame="1999">1999</option>
+                    <option vame="2000">2000</option>
+                    <option vame="2001">2001</option>
+                    <option vame="2002">2002</option>
+                </select>
+                <h4>Виберіть стать</h4>
+                    <input type="radio" name="sex">
+                <label for="field5">Чоловіча</label>
+                    <input type="radio" name="sex">
+                <label for="field6">Жіноча</label>
+                <label for="field7">Пароль</label>
+                    <input type="password" id="field7" placeholder="Придумайте пароль"required>
+                <label for="field8">Підтвердіть пароль</label>
+                    <input type="password" id="field8" placeholder="Повторіть пароль"required>
+                <label for="field9">Причина реєстрації</label>
+                    <input type="text" id="field9"placeholder="Тому, що"required>
+            </fieldset>
+            <input type="submit" value="Надіслати">
+            <input type="reset" value="Очистити">
+        </form>
+    </body>
+</html>
